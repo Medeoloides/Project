@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+	<Button
+	    android:id="@+id/logWithExisting"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:onClick="login"
+	    android:text="Login with exitsting account" />
+    
+    <Button
+        android:id="@+id/createNewAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/logWithExisting"
+        android:onClick="createNew"
+        android:text="Create new account" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_my_map">MyMap</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_photo">Photo</string>
+    <string name="title_activity_calendar">Calendar</string>
+
+</resources>

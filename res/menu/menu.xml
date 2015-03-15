@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<TextView 
+	    android:id="@+id/normal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Normal"> 
+	</TextView> 
+	
+	<TextView 
+	    android:id="@+id/satellite"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Satellite"> 
+	</TextView> 
+	
+	<TextView 
+	    android:id="@+id/terrain"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Terrain"> 
+	</TextView> 
+	
+	<TextView 
+	    android:id="@+id/hybrid"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Hybrid"> 
+	</TextView> 
+	
+</menu>
